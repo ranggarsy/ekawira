@@ -1,20 +1,18 @@
-import Head from 'next/head'
-import './Home.module.css'
-import Footer from '../components/footer/Footer'
-import Image from 'next/image'
-import Navbar from '../components/Navbar/Navbar'
-import HomeHeader from '../components/HomeHeader/HomeHeader'
-import HomeCard1 from '../components/HomeCard1/HomeCard1'
-import HomeServices from '../components/HomeServices/HomeServices'
-import HomeCard2 from '../components/HomeCard2/HomeCard2'
-import VisiMisi from '../components/VisiMisi/VisiMisi'
-import BusinessPartner from '../components/BusinessPartner/BusinessPartner'
+import Head from 'next/head';
+import './Home.module.css';
+import Footer from '../components/footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
+import HomeHeader from '../components/HomeHeader/HomeHeader';
+import HomeCard1 from '../components/HomeCard1/HomeCard1';
+import HomeServices from '../components/HomeServices/HomeServices';
+import HomeCard2 from '../components/HomeCard2/HomeCard2';
+import Visimisi from '../components/Visimisi/Visimisi';
+import BusinessPartner from '../components/BusinessPartner/BusinessPartner';
 
 
 export default function Home() {
-  return (<>
-
-
+  return (
+  <>
       <Head>
         <title>PancaEkawiraSanjaya</title>
         <link rel="icon" href="/iconBrand.svg" />
@@ -32,16 +30,15 @@ export default function Home() {
 
         <div className="aboutServiceArea">
         
-        <HomeCard1 />
+        <HomeCard1/>
         <HomeServices />
         <HomeCard2 />
+        <Visimisi />
 
             
         </div>
 
 
-        {/* VISI N MISI PERUSAHAAN */}
-        <VisiMisi />
 
         {/* Business Partner */}
         <BusinessPartner />

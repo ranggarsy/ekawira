@@ -1,0 +1,72 @@
+.ourServices{
+    width: 100vw;
+    height: auto;
+    min-height: 50vh;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    position: relative;
+}
+.serviceContent{
+    width: 100%;
+    padding: 0 3%;
+    display: flex;
+    column-gap: 15px;
+    margin-top: 35px;
+}
+
+.serviceContent .fas{
+    width: 60px;
+    text-align: center;
+}
+
+.serviceText{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.decorationBolaService{
+    width: 90px;
+    height: 90px;
+    border-radius: 900px;
+    background-color: #001F8D;
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+}
+
+.decorationBolaService2{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(180deg, #D12635 0%, #001F8D 100%);
+    border-radius: 900px;
+    position: absolute;
+    right: 13.5%;
+    bottom: 31%;
+}
+
+.decorationBolaService3{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(220.67deg, #001F8D 11.64%, #D12635 86.1%);
+    border-radius: 900px;
+    position: absolute;
+    right: 10%;
+    bottom: 23%;
+}
+
+.serviceContent .fas{
+    font-size: 40pt;
+    color: #001F8D;
+}
+
+.decorationServices{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 90px;
+    background-color: #001F8D;
+}

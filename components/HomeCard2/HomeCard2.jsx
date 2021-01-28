@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 
-const HomeCard2 = () =>{
+const Homecardone = () =>{
     const [carousel,setCarousel] = useState({
         carousel1 : true,
         carousel2 : false,
@@ -12,56 +12,57 @@ const HomeCard2 = () =>{
         carousel4 : false
     })
 
-    useEffect(()=>{
-        setTimeout(()=>{
-            setCarousel({
-                carousel2 : true
-            })
-        }, 10000)
+    
+    // useEffect(()=>{
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel2 : true
+    //         })
+    //     }, 10000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel3 : true
-            })
-        }, 20000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel3 : true
+    //         })
+    //     }, 20000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel4 : true
-            })
-        }, 30000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel4 : true
+    //         })
+    //     }, 30000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel1 : true
-            })
-        }, 40000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel1 : true
+    //         })
+    //     }, 40000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel2 : true
-            })
-        }, 50000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel2 : true
+    //         })
+    //     }, 50000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel3 : true
-            })
-        }, 60000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel3 : true
+    //         })
+    //     }, 60000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel4 : true
-            })
-        }, 70000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel4 : true
+    //         })
+    //     }, 70000)
 
-        setTimeout(()=>{
-            setCarousel({
-                carousel1 : true
-            })
-        }, 80000)
+    //     setTimeout(()=>{
+    //         setCarousel({
+    //             carousel1 : true
+    //         })
+    //     }, 80000)
 
-    },[])
+    // },[])
 
     return(
         
@@ -283,4 +284,4 @@ const HomeCard2 = () =>{
     )
 }
 
-export default HomeCard2
+export default Homecardone

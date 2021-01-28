@@ -118,7 +118,6 @@ const HomeCard1 = () =>{
                 </div>
                 </>
             )}
-
                 {carousel.carousel2 && (
                 <>
                 <div className="cardLeft">
@@ -165,12 +164,9 @@ const HomeCard1 = () =>{
                             })
                         }}></div>
                         <div className="blueDecoration"></div>
-
-
                 </div>
                 </>
             )}
-
             {carousel.carousel3 && (
                 <>
                 <div className="cardLeft">
@@ -217,12 +213,9 @@ const HomeCard1 = () =>{
                             })
                         }}></div>
                         <div className="blueDecoration"></div>
-
-
                 </div>
                 </>
             )}
-
             {carousel.carousel4 && (
                 <>
                 <div className="cardLeft">
@@ -269,13 +262,9 @@ const HomeCard1 = () =>{
                         }}></div>
                         <div className="buletCardUtama"></div>
                         <div className="blueDecoration"></div>
-
-
                 </div>
                 </>
             )}
-
-
         </div>
     )
 }

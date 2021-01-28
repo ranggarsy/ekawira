@@ -2,6 +2,7 @@ import Image from 'next/image'
 import "./navbar.module.css"
 import { useState } from 'react'
 import TabMenu from '../tabMenu/TabMenu'
+// import Link from 'next/link'
 
 function Navbar() {
     const [showModal,setShowModal] = useState(false)
@@ -35,11 +36,11 @@ function Navbar() {
             </div>
 
             <div className="navRight">
-                <h3>COMPANY PROFILE</h3>
-                <h3>PRODUCT</h3>
-                <h3>PROJECT</h3>
-                <h3>CONTACT</h3>
-                <a href="/ecommplan"><h3>E-COMM PLAN</h3></a>
+                <a href="/company-profile"><h3>COMPANY PROFILE</h3> </a>
+                <a href="/product"><h3>PRODUCT</h3></a>
+                <a href="/project"><h3>PROJECT</h3></a>
+               <a href="/contact"> <h3>CONTACT</h3></a>
+                <a href="/e-comm"><h3>E-COMM PLAN</h3></a>
                 <i className="fas fa-search searchIconNoteBook"></i>
 
                     <form className="navSearch">

@@ -1,0 +1,27 @@
+.project{
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 25px;
+}
+
+.containerOurProject{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 1.5vw 0 0 #D12635;
+  padding-bottom: 50px;
+}
+
+.titleHeader{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 1.75rem;
+}

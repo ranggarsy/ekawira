@@ -1,0 +1,61 @@
+.companyContainer{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.companyIsi{
+    width: 70%;
+    text-align: justify;
+    padding: 0 20px;
+    font-size: 1.5rem;
+}
+
+.companyIsiHeader{
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    text-align: center;
+}
+
+.companyIsi > p {
+    margin-top: 50px;
+}
+
+.companyBusiness{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separatorBlack{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+@media only screen and (max-width : 500px) {
+    .companyIsi{
+        width: 90%;
+        text-align: justify;
+        padding: 0 20px;
+        font-size: 1.5rem;
+    }
+
+    .separatorBlack{
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
