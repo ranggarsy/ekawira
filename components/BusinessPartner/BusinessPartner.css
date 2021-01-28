@@ -1,0 +1,84 @@
+.businessPartners{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 1.5vw 0 0 #D12635;
+}
+
+.businessPartners h1 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.imgContainerBusiness{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+
+.imgContainerBottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.forMarginBottomHome{
+    margin-bottom: 50px;
+}
+.mortar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px){
+    .businessPartners h1{
+        font-size: 18pt;
+        padding: 0 5%;
+    }
+
+    .imgContainerBottom{
+        justify-content: center;
+        
+    }
+
+    .gambarBawah{
+        position: relative;
+    }
+
+    .mortar{
+        position: relative;
+    }
+
+    .mortar img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .gambarBawah img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width : 501px) and (max-width : 937px) {
+    .gambarBawah img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .mortar {
+        margin-right: 30px;
+    }
+    .gambarBawah{
+        margin: 0 auto;
+
+    }
+}
