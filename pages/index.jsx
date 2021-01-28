@@ -33,10 +33,11 @@ export default function Home() {
         <HomeCard1/>
         <HomeServices />
         <HomeCard2 />
-        <Visimisi />
 
             
         </div>
+        <Visimisi />
+
 
 
 
