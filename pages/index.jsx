@@ -6,7 +6,7 @@ import HomeHeader from '../components/HomeHeader/HomeHeader';
 import HomeCard1 from '../components/HomeCard1/HomeCard1';
 import HomeServices from '../components/HomeServices/HomeServices';
 import HomeCard2 from '../components/HomeCard2/HomeCard2';
-import Visimisi from '../components/Visimisi/Visimisi';
+import VisiMisi from '../components/VisiMisi/VisiMisi';
 import BusinessPartner from '../components/BusinessPartner/BusinessPartner';
 
 
@@ -36,7 +36,7 @@ export default function Home() {
 
             
         </div>
-        <Visimisi />
+        <VisiMisi />
 
 
 

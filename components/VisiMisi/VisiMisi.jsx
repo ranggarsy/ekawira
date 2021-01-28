@@ -2,7 +2,7 @@ import './VisiMisi.css'
 import Image from 'next/image'
 import { useState } from 'react'
 
-const Visimisi = () =>{
+const VisiMisi = () =>{
     const [visi, setVisi] = useState(true)
     return(
         <div className="visiMisi">
@@ -57,4 +57,4 @@ const Visimisi = () =>{
     )
 }
 
-export default Visimisi
+export default VisiMisi
